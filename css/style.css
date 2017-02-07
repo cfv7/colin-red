@@ -1,0 +1,213 @@
+/*	HELLO. I'M COLIN. I'M A ROBOT.
+ *	THANK YOU FOR VISITING MY WEBSITE. 
+ *  SPECIAL THANKS TO BRETT HOFFMAN, KOURY LAUPE, JASON BOWLES, AND SCOTT TRIBBLE.
+ *  
+/* =============================================================================
+  MEDIA QUERIES
+============================================================================= */	
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+	div.info-wrapper{
+		background-color: whitesmoke;
+		padding: 7px 1;
+		width: 90%;
+		margin-top: 7%;
+		box-shadow: 5px 5px; 
+		left: 0; 
+		right: 0; 
+		margin-left: auto; 
+		margin-right: auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		}
+	.info {
+		text-align: center;
+		margin: 4px;
+		line-height: 1.7;
+		overflow-x: hidden;
+		overflow-y: hidden;		}
+	.ccount {
+		color: #d0d0d0;
+		text-align: right;
+		float: right;
+		margin: 0 5px 2px 0;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-size: 12px;
+		}
+	h1{
+		color: black;
+		font-size: 30px;
+		font-family: helvetica, sans-serif;
+		}
+	p{
+		color: black;
+		font-size: 20px;
+		font-family: 'EB Garamond', serif;		
+		}
+	.special {
+		font-size: 110%;
+		}
+}
+@media only screen and (min-width: 769px) and (max-width: 3420px) {	
+	h1{
+		color: black;
+		font-size: 50px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		}
+	p{
+		color: black;
+		font-size: 25px;
+		font-family: 'EB Garamond', serif;		
+		}
+	div.info-wrapper { 
+		background-color: whitesmoke;
+		padding: 20px 1;
+		padding-left: 40px;
+		padding-right: 40px;
+		width: 50%;
+		box-shadow: 7px 7px; 
+		left: 0; 
+		right: 0; 
+		margin-top: 3%;
+		margin-left: auto; 
+		margin-right: auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		}	
+	.info {
+		text-align: center;
+		margin: 5px;
+		line-height: 2;
+		overflow-x: hidden;
+		overflow-y: hidden;		
+		font-size:3em;
+		}
+	.ccount {
+		color: #d0d0d0;
+		text-align: right;
+		float: right;
+		margin: 0 5px 2px 0;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-size: 17px;
+		}}}
+/* =============================================================================
+	BASICS
+============================================================================= */
+html,
+body,
+div,
+h1,
+a,
+video {
+	margin: 0;
+	padding: 0;
+	display: block;
+	}	
+ul {
+	padding:0;
+	}
+li{
+	/*padding:0.15em 0 0.5em 1.5em;
+	margin-bottom:0.2em;
+	text-indent:0.4em;*/
+	}
+.special {
+	font-size: 110%;
+	}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+html,
+body {	
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 0; 
+	margin: 0;}
+	}
+.wrap {
+	position: relative;
+	}	
+.section {
+	background: black;
+	min-height: 100vh;
+	min-width: 100%;
+	}
+.section-what {
+	background-color: #6699cc;
+	background-image: radial-gradient(#B8B8B8 15%, transparent 16%),
+	radial-gradient(#B8B8B8 10%, transparent 16%);
+	background-size:10px 10px;
+	background-position: 0 0, 30px 30px;	
+	}
+.section-who {
+	background-color: #a23e48;
+	background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+	}
+.section-where {
+	background-color: #ff8c42;
+	background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+	}
+.section-when {
+	background: #f9df74;
+	background-image: radial-gradient(#D0D0D0 15%, transparent 16%),
+	radial-gradient(#D0D0D0 10%, transparent 16%);
+	background-size:10px 10px;
+	background-position: 0 0, 30px 30px;	
+	}
+.section-why {
+	background-color: #69e067;
+	background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+	}
+.section-how {
+	background: #856084;
+	background-image: radial-gradient(#777 15%, transparent 16%),
+	radial-gradient(#777 15%, transparent 16%);
+	background-size:10px 10px;
+	background-position: 0 0, 30px 30px;
+	}
+/* =============================================================================
+  CONTENT
+============================================================================= */
+.content {
+	position: relative;
+	top: 3%;
+	z-index: 2;
+	margin: 0 auto;
+	max-width: 720px;
+	text-align: center;
+	}		
+/* =============================================================================
+  VIDEO
+============================================================================= */
+.video {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   	object-fit: fill;
+   	}
+/* =============================================================================
+  BUTTON
+============================================================================= */
+.myButton {
+	background-color:rgba(0,0,0,0.2);
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:2px solid #856084;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family: courier new;
+	font-size:17px;
+	padding:13px 50px;
+	}
+.myButton:hover {
+	background-color:whitesmoke;
+	color:#856084; 
+	}
+.myButton:active {
+	position:relative;
+	top:1px;
+	}
